@@ -17,7 +17,7 @@ public class DuckTestDrive {
         turkey.gobble();
         turkey.fly();
 
-        System.out.println("\nThe Duck says...");
+        System.out.println("\nThe duck says...");
         testDuck(duck);
 
         System.out.println("\nThe TurkeyAdapter says...");
