@@ -1,4 +1,6 @@
-package headfirst.designpatterns.command.remote;
+package headfirst.designpatterns.command.remote.Light;
+
+import headfirst.designpatterns.command.remote.Command;
 
 /**
  * Created by zhouhezhen on 2017/7/11.

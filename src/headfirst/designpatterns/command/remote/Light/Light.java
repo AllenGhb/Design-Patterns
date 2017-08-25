@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.remote;
+package headfirst.designpatterns.command.remote.Light;
 
 /**
  * 电灯

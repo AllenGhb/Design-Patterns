@@ -1,4 +1,4 @@
-package headfirst.designpatterns.command.remote;
+package headfirst.designpatterns.command.remote.GarageDoor;
 
 public class GarageDoor {
 	String location;

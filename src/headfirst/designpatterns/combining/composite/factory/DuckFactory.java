@@ -1,6 +1,10 @@
 package headfirst.designpatterns.combining.composite.factory;
 
 import headfirst.designpatterns.combining.composite.Quackable;
+import headfirst.designpatterns.combining.composite.duck.DuckCall;
+import headfirst.designpatterns.combining.composite.duck.MallardDuck;
+import headfirst.designpatterns.combining.composite.duck.RedheadDuck;
+import headfirst.designpatterns.combining.composite.duck.RubberDuck;
 
 public class DuckFactory extends AbstractDuckFactory {
   

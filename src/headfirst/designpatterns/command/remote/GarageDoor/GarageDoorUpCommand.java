@@ -1,4 +1,6 @@
-package headfirst.designpatterns.command.remote;
+package headfirst.designpatterns.command.remote.GarageDoor;
+
+import headfirst.designpatterns.command.remote.Command;
 
 public class GarageDoorUpCommand implements Command {
 	GarageDoor garageDoor;
