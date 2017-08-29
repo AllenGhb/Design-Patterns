@@ -5,10 +5,15 @@ package headfirst.designpatterns.templatemethod.barista;
  */
 public abstract class CaffeineBeverage {
 
+    // 准备的食谱
     final void prepareRecipe(){
+        // 烧水
         boilWater();
+        // 冲泡
         brew();
+        // 倒入杯
         pourInCup();
+        // 添加调料
         addCondiments();
 
     }
