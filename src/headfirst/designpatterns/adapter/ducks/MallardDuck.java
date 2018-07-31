@@ -1,7 +1,7 @@
 package headfirst.designpatterns.adapter.ducks;
 
 /**
- * @Discription:
+ * @Discription: 野鸭子 实现鸭子行为
  * @Author: allen
  * @Date: 2017/7/24
  */

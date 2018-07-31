@@ -1,7 +1,7 @@
 package headfirst.designpatterns.adapter.ducks;
 
 /**
- * @Discription:
+ * @Discription: 野生火鸡 实现火鸡行为
  * @Author: allen
  * @Date: 2017/7/24
  */
