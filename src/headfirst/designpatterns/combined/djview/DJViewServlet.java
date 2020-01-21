@@ -1,5 +1,10 @@
 package headfirst.designpatterns.combined.djview;
 
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 
 public class DJViewServlet extends HttpServlet {
@@ -13,7 +18,7 @@ public class DJViewServlet extends HttpServlet {
 	}
 
 	public void doGet(HttpServletRequest request,
-			HttpServletResponse response)
+					  HttpServletResponse response)
 					throws IOException, ServletException
 	{
 		doPost(request, response);
@@ -57,7 +62,7 @@ public class DJViewServlet extends HttpServlet {
 
 		request.setAttribute("beatModel", beatModel);
 
-		RequestDispatcher dispatcher = 
+		RequestDispatcher dispatcher =
 				request.getRequestDispatcher("/djview.jsp");
 		dispatcher.forward(request, response);
 
